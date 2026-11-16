@@ -1,0 +1,50 @@
+.ticketform-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.62vw;
+}
+
+.ticketform-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.21vw;
+}
+
+.ticketform-label {
+  font-size: 0.68vw;
+  font-weight: 600;
+}
+
+.ticketform-input {
+  padding: 0.42vw 0.52vw;
+  border-radius: 0.42vw;
+  font-size: 0.68vw;
+  width: 100%;
+}
+
+.ticketform-textarea {
+  height: 4.69vw;
+  resize: vertical;
+}
+
+.ticketform-buttons {
+  display: flex;
+  gap: 0.52vw;
+  justify-content: flex-end;
+  margin-top: 0.42vw;
+}
+
+.ticketform-btn {
+  padding: 0.52vw 1.04vw;
+  border-radius: 0.42vw;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.73vw;
+  flex-shrink: 0;
+}
+
+.ticketform-btn-save {
+  border: none;
+  background-color: #3b82f6;
+  color: white;
+}

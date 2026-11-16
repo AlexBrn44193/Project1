@@ -1,0 +1,45 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  border-radius: 0.62vw;
+  padding: 1.46vw 1.25vw;
+  width: 26.04vw;
+  max-width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.modal-content-wide {
+  width: 62.5vw;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.83vw;
+}
+
+.modal-title {
+  margin: 0;
+  font-size: 0.94vw;
+}
+
+.modal-close {
+  border: none;
+  background: none;
+  font-size: 1.04vw;
+  cursor: pointer;
+  flex-shrink: 0;
+}

@@ -1,0 +1,159 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  padding: 2.08vw 1.25vw;
+  text-align: center;
+  position: relative;
+}
+
+.home-login-corner {
+  position: absolute;
+  top: 1.25vw;
+  right: 1.25vw;
+}
+
+.home-hero {
+  margin-bottom: 2.6vw;
+}
+
+.home-date {
+  display: block;
+  font-size: 0.94vw;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05vw;
+  margin-bottom: 1.04vw;
+}
+
+.home-clock {
+  font-variant-numeric: tabular-nums;
+  font-family: "Courier New", monospace;
+  font-weight: 700;
+}
+
+.home-cta {
+  margin-top: 1.04vw;
+  padding: 0.62vw 1.46vw;
+  border-radius: 0.52vw;
+  border: none;
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  color: white;
+  font-weight: 700;
+  font-size: 0.78vw;
+  cursor: pointer;
+  box-shadow: 0 0.42vw 1.04vw rgba(59,130,246,0.35);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  flex-shrink: 0;
+}
+
+.home-cta:hover {
+  transform: translateY(-0.16vw);
+  box-shadow: 0 0.62vw 1.35vw rgba(59,130,246,0.45);
+}
+
+.home-icon {
+  font-size: 3.12vw;
+  margin-bottom: 0.62vw;
+}
+
+.home-title {
+  font-size: 2.08vw;
+  font-weight: 800;
+  margin-bottom: 0.62vw;
+}
+
+.home-subtitle {
+  font-size: 0.94vw;
+  font-weight: 500;
+}
+
+.home-cards {
+  display: flex;
+  gap: 1.25vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 62.5vw;
+}
+
+.home-card {
+  flex: 1;
+  min-width: 15.62vw;
+  max-width: 18.75vw;
+  border-radius: 0.94vw;
+  padding: 1.67vw 1.35vw;
+  box-shadow: 0 0.21vw 0.83vw rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 0.31vw;
+}
+
+.home-card:hover {
+  transform: translateY(-0.42vw);
+  box-shadow: 0 0.83vw 2.08vw rgba(0,0,0,0.18);
+}
+
+.home-card-icon {
+  width: 3.12vw;
+  height: 3.12vw;
+  border-radius: 0.83vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.46vw;
+  margin-bottom: 0.62vw;
+  box-shadow: 0 0.42vw 0.83vw rgba(0,0,0,0.2);
+  flex-shrink: 0;
+}
+
+.home-card h3 {
+  font-size: 1.04vw;
+  font-weight: 700;
+}
+
+.home-card p {
+  font-size: 0.73vw;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.home-card-arrow {
+  font-size: 0.68vw;
+  font-weight: 700;
+  margin-top: 0.42vw;
+}
+
+.home-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.08vw;
+  margin-top: 2.6vw;
+  padding-top: 1.67vw;
+  border-top: 0.05vw solid rgba(148,163,184,0.25);
+}
+
+.home-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.21vw;
+  flex-shrink: 0;
+}
+
+.home-stat-value {
+  font-size: 1.67vw;
+  font-weight: 800;
+}
+
+.home-stat-label {
+  font-size: 0.68vw;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05vw;
+}

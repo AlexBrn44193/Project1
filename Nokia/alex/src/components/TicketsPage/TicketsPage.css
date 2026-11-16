@@ -1,0 +1,236 @@
+.tickets-page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.42vw;
+}
+
+.tickets-page-title {
+  font-size: 1.04vw;
+  font-weight: bold;
+}
+
+.tickets-header-buttons {
+  display: flex;
+  gap: 0.52vw;
+}
+
+.tickets-btn {
+  padding: 0.52vw 1.04vw;
+  border-radius: 0.42vw;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.73vw;
+  flex-shrink: 0;
+}
+
+.tickets-btn-dark { background-color: #1e293b; color: white; }
+.tickets-btn-purple { background-color: #7c3aed; color: white; }
+.tickets-btn-green { background-color: #16a34a; color: white; }
+.tickets-btn-red { background-color: #ef4444; color: white; }
+.tickets-btn-blue { background-color: #3b82f6; color: white; }
+
+.tickets-count {
+  margin-bottom: 0.83vw;
+  font-size: 0.73vw;
+}
+
+.tickets-import-zone {
+  border-radius: 0.62vw;
+  padding: 1.67vw 1.04vw;
+  text-align: center;
+  margin-bottom: 0.83vw;
+  transition: all 0.2s;
+  border: 0.1vw dashed;
+}
+
+.tickets-import-text {
+  font-size: 0.83vw;
+  margin: 0;
+}
+
+.tickets-import-select-btn {
+  margin-top: 0.52vw;
+  display: inline-block;
+}
+
+.tickets-filters {
+  padding: 0.83vw 1.04vw;
+  border-radius: 0.62vw;
+  box-shadow: 0 0.05vw 0.21vw rgba(0,0,0,0.1);
+  margin-bottom: 0.83vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.73vw;
+  align-items: flex-end;
+}
+
+.tickets-filter-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.21vw;
+  flex-shrink: 0;
+}
+
+.tickets-filter-label {
+  font-size: 0.68vw;
+  font-weight: 600;
+  margin-bottom: 0.21vw;
+  display: block;
+}
+
+.tickets-search-input {
+  padding: 0.42vw 0.52vw;
+  border-radius: 0.42vw;
+  font-size: 0.68vw;
+  min-width: 10.42vw;
+}
+
+.tickets-sla-btn {
+  padding: 0.52vw 1.04vw;
+  border-radius: 0.42vw;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.73vw;
+  flex-shrink: 0;
+}
+
+.tickets-table-container {
+  border-radius: 0.62vw;
+  box-shadow: 0 0.05vw 0.21vw rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.tickets-reset-sort-row {
+  padding: 0.42vw 0.52vw;
+  display: flex;
+}
+
+.tickets-reset-sort-btn {
+  padding: 0.26vw 0.52vw;
+  font-size: 0.62vw;
+}
+
+.tickets-table-scroll {
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 50vh;
+}
+
+.tickets-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tickets-table th {
+  padding: 0.62vw 0.73vw;
+  text-align: left;
+  font-size: 0.68vw;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+}
+
+.tickets-th-sortable {
+  cursor: pointer;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.tickets-th-sortable:hover {
+  opacity: 0.85;
+}
+
+.tickets-sort-arrow {
+  margin-left: 0.21vw;
+  font-size: 0.57vw;
+}
+
+.tickets-sort-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0.83vw;
+  height: 0.83vw;
+  padding: 0 0.16vw;
+  margin-left: 0.16vw;
+  border-radius: 52.03vw;
+  background-color: #3b82f6;
+  color: white;
+  font-size: 0.47vw;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.tickets-table td {
+  padding: 0.42vw 0.52vw;
+  font-size: 0.68vw;
+}
+
+.tickets-empty-cell {
+  padding: 1.25vw;
+  text-align: center;
+}
+
+.tickets-actions-cell {
+  display: flex;
+  gap: 0.31vw;
+}
+
+.tickets-action-btn {
+  padding: 0.26vw 0.52vw;
+  font-size: 0.62vw;
+}
+
+.tickets-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.73vw 1.04vw;
+}
+
+.tickets-pagination-left {
+  display: flex;
+  align-items: center;
+  gap: 0.62vw;
+}
+
+.tickets-pagination-count {
+  font-size: 0.68vw;
+}
+
+.tickets-per-page-group {
+  display: flex;
+  align-items: center;
+  gap: 0.42vw;
+}
+
+.tickets-per-page-label {
+  font-size: 0.68vw;
+}
+
+.tickets-per-page-btn {
+  padding: 0.21vw 0.52vw;
+  border-radius: 0.31vw;
+  border: 0.05vw solid;
+  cursor: pointer;
+  font-size: 0.68vw;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.tickets-pagination-right {
+  display: flex;
+  align-items: center;
+  gap: 0.42vw;
+}
+
+.tickets-pagination-btn {
+  padding: 0.31vw 0.62vw;
+  border-radius: 0.31vw;
+  border: 0.05vw solid;
+  cursor: pointer;
+  font-size: 0.68vw;
+  flex-shrink: 0;
+}

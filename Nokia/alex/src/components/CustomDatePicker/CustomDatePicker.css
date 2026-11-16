@@ -1,0 +1,87 @@
+.datepicker-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.21vw;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.datepicker-label {
+  font-size: 0.68vw;
+  font-weight: 600;
+  margin-bottom: 0.21vw;
+  display: block;
+}
+
+.datepicker-trigger {
+  padding: 0.42vw 0.62vw;
+  border-radius: 0.42vw;
+  font-size: 0.68vw;
+  min-width: 7.81vw;
+  height: 1.98vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.datepicker-trigger-icons {
+  display: flex;
+  align-items: center;
+  gap: 0.31vw;
+}
+
+.datepicker-clear {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.datepicker-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 500;
+  border-radius: 0.42vw;
+  box-shadow: 0 0.21vw 0.62vw rgba(0,0,0,0.2);
+  padding: 0.52vw;
+  min-width: 11.46vw;
+  margin-top: 0.21vw;
+}
+
+.datepicker-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.42vw;
+}
+
+.datepicker-nav-arrow {
+  cursor: pointer;
+  padding: 0 0.31vw;
+  font-size: 0.83vw;
+}
+
+.datepicker-month-label {
+  font-size: 0.68vw;
+  font-weight: 600;
+}
+
+.datepicker-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.1vw;
+  text-align: center;
+}
+
+.datepicker-weekday {
+  font-size: 0.57vw;
+  font-weight: 600;
+  padding: 0.21vw 0;
+}
+
+.datepicker-day {
+  font-size: 0.62vw;
+  padding: 0.31vw 0;
+  border-radius: 0.21vw;
+}

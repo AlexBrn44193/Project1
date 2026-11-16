@@ -1,0 +1,116 @@
+.chathistory-container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.chathistory-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.62vw;
+  flex-shrink: 0;
+}
+
+.chathistory-page-title {
+  font-size: 1.04vw;
+  font-weight: bold;
+}
+
+.chathistory-count {
+  font-size: 0.68vw;
+  margin-bottom: 0.83vw;
+}
+
+.chathistory-clear-btn {
+  padding: 0.52vw 1.04vw;
+  border-radius: 0.42vw;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.73vw;
+  flex-shrink: 0;
+  background-color: #ef4444;
+  color: white;
+}
+
+.chathistory-clear-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.chathistory-scroll {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.62vw;
+}
+
+.chathistory-empty {
+  border-radius: 0.62vw;
+  padding: 1.67vw;
+  text-align: center;
+  box-shadow: 0 0.05vw 0.21vw rgba(0,0,0,0.1);
+}
+
+.chathistory-card {
+  border-radius: 0.62vw;
+  padding: 0.83vw 1.04vw;
+  box-shadow: 0 0.05vw 0.21vw rgba(0,0,0,0.1);
+}
+
+.chathistory-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.62vw;
+  margin-bottom: 0.42vw;
+}
+
+.chathistory-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.42vw;
+  align-items: center;
+}
+
+.chathistory-intent-badge {
+  padding: 0.16vw 0.52vw;
+  border-radius: 52.03vw;
+  font-size: 0.62vw;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.chathistory-date {
+  font-size: 0.62vw;
+}
+
+.chathistory-result-count {
+  font-size: 0.62vw;
+}
+
+.chathistory-delete-btn {
+  padding: 0.26vw 0.52vw;
+  border-radius: 0.42vw;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.62vw;
+  flex-shrink: 0;
+  background-color: #ef4444;
+  color: white;
+}
+
+.chathistory-question {
+  font-size: 0.73vw;
+  font-weight: 600;
+  margin-bottom: 0.31vw;
+}
+
+.chathistory-answer {
+  font-size: 0.68vw;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}

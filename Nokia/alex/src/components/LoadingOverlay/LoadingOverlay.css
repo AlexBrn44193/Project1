@@ -1,0 +1,52 @@
+.loading-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(0.21vw);
+  -webkit-backdrop-filter: blur(0.21vw);
+  background-color: rgba(15, 23, 42, 0.35);
+  border-radius: 0.62vw;
+  animation: loadingFadeIn 0.15s ease;
+}
+
+.loading-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.73vw;
+  padding: 1.35vw 2.08vw;
+  border-radius: 0.83vw;
+  box-shadow: 0 0.42vw 1.67vw rgba(0,0,0,0.25);
+}
+
+.loading-ring {
+  position: relative;
+  width: 10.42vw;
+  height: 3.65vw;
+}
+
+.loading-packet {
+  animation: loadingPacketTravel 2.2s ease-in-out infinite;
+}
+
+.loading-text {
+  font-size: 0.73vw;
+  font-weight: 600;
+}
+
+/* Pachetul pleaca de la aplicatie, ajunge la baza de date, "ia" ceva (se micsoreaza scurt), si se intoarce */
+@keyframes loadingPacketTravel {
+  0%   { transform: translateX(0) scale(1); fill: #3b82f6; }
+  40%  { transform: translateX(146px) scale(1); fill: #3b82f6; }
+  50%  { transform: translateX(146px) scale(0.55); fill: #10b981; }
+  60%  { transform: translateX(146px) scale(1); fill: #10b981; }
+  100% { transform: translateX(0) scale(1); fill: #10b981; }
+}
+
+@keyframes loadingFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

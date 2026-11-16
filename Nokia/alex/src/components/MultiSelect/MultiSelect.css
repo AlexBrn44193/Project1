@@ -1,0 +1,88 @@
+.multiselect-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.21vw;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.multiselect-label {
+  font-size: 0.68vw;
+  font-weight: 600;
+  margin-bottom: 0.21vw;
+  display: block;
+}
+
+.multiselect-trigger {
+  padding: 0.42vw 0.62vw;
+  border-radius: 0.42vw;
+  font-size: 0.68vw;
+  min-width: 7.81vw;
+  height: 1.98vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.05vw solid #e2e8f0;
+  position: relative;
+}
+
+.multiselect-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 500;
+  border-radius: 0.42vw;
+  box-shadow: 0 0.21vw 0.62vw rgba(0,0,0,0.2);
+  min-width: 9.38vw;
+  margin-top: 0.21vw;
+  border: 0.05vw solid #e2e8f0;
+  max-height: 11.46vw;
+  overflow-y: auto;
+}
+
+.multiselect-chips {
+  display: flex;
+  flex-direction: column;
+  gap: 0.21vw;
+  padding: 0.42vw 0.52vw;
+  border-bottom: 0.05vw solid #e2e8f0;
+}
+
+.multiselect-chip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.21vw;
+  background-color: #e0f2fe;
+  color: #0369a1;
+  padding: 0.16vw 0.31vw 0.16vw 0.52vw;
+  border-radius: 52.03vw;
+  font-size: 0.62vw;
+  font-weight: 600;
+}
+
+.multiselect-chip-remove {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0 0.21vw;
+  border-radius: 50%;
+}
+
+.multiselect-option {
+  padding: 0.42vw 0.62vw;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.42vw;
+  font-size: 0.68vw;
+}
+
+.multiselect-reset {
+  padding: 0.42vw 0.62vw;
+  cursor: pointer;
+  font-size: 0.62vw;
+  color: #ef4444;
+  font-weight: 600;
+  text-align: center;
+}
